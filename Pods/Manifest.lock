@@ -1,0 +1,22 @@
+PODS:
+  - XAProject1 (0.1.0)
+  - XAProject2 (0.1.0):
+    - XAProject1
+
+DEPENDENCIES:
+  - XAProject1 (from `Lib/XAProject1`)
+  - XAProject2 (from `Lib/XAProject2`)
+
+EXTERNAL SOURCES:
+  XAProject1:
+    :path: Lib/XAProject1
+  XAProject2:
+    :path: Lib/XAProject2
+
+SPEC CHECKSUMS:
+  XAProject1: 0987319e4b95bb155e6117786220e015ab146c3c
+  XAProject2: 9d82eeff3ac00f654f9a3f4b04eed16d06cd23ab
+
+PODFILE CHECKSUM: 13674273e1036ba06f18e141a8becf3d263290d9
+
+COCOAPODS: 1.5.3
